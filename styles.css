@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    
     color: #555;
     margin: 0;
 }
@@ -61,7 +60,7 @@ div.sliders .item {
     display: flex;
     justify-content: center;
 }
-.sliders img {
+.sliders img{
     object-fit: scale-down;
     width: 500px;
     height: 500px;
@@ -119,4 +118,12 @@ div.sliders .slick-prev:before, div.sliders .slick-next:before{
     padding: 0 20px;;
     text-shadow: 1px 1px 1px #ffffff;
 }
+.self {
+    display: flex;
+}
 
+.self img{
+    object-fit: scale-down;
+    width: 500px;
+    height: 500px;
+}
